@@ -1,6 +1,8 @@
 # uk-parlidata-appg
 Scrape UK Parliament APPG (All Party Parliamentary Group) Details
 
+You can query the latest copy of the db (Oct 2021) here: [https://ouseful-datasupply.github.io/uk-parlidata-appg/](https://ouseful-datasupply.github.io/uk-parlidata-appg/)
+
 ```
 Usage:
 
