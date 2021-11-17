@@ -132,5 +132,6 @@ def scraper(url=None, conn=None, exists=None, to_csv=False):
         df_AGM.to_sql(con=conn, name='df_AGM',if_exists=exists, index=False)
         df_regBenefits.to_sql(con=conn, name='df_regBenefits',if_exists=exists, index=False)
         df_inKindBenefits.to_sql(con=conn, name='df_inKindBenefits',if_exists=exists, index=False)
-       
+     
+    return df_details, df_officers, df_contacts, df_AGM, df_regBenefits, df_inKindBenefits
            
